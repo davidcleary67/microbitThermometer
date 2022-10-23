@@ -1,6 +1,3 @@
-let hands: Image[] = []
-let dir = 0
-let idir = 0
 function showCompass () {
     hands = [
     images.createImage(`
@@ -122,3 +119,10 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(1000)
     showCompass()
 })
+let idir = 0
+let dir = 0
+let hands: Image[] = []
+music.playMelody("A G F F A G F F ", 120)
+music.playMelody("A G C5 C5 A G C5 C5 ", 120)
+music.playMelody("A G F G A G C5 C5 ", 120)
+music.playMelody("A G F G A G F F ", 120)
