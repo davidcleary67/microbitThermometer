@@ -1,5 +1,5 @@
 {
-    "name": "Thermometer",
+    "name": "Thermometer and Compass",
     "description": "",
     "dependencies": {
         "core": "*",
